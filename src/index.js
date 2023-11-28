@@ -1,3 +1,11 @@
+import { greet } from "./components/file1";
+import { add } from "./components/file2";
+import { multiply } from "./components/file3";
+
+console.log(greet('Sam'));
+console.log(add(2, 3));
+console.log(multiply(4, 8));
+
 function createApp() {
   const app = document.createElement('div');
   app.innerHTML = '<h1>Hello, React SPA!</h1>';

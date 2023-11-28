@@ -1,1 +1,1 @@
-(()=>{var e,n;e=function(){const e=document.createElement("div");return e.innerHTML="<h1>Hello, React SPA!</h1>",e},(n=document.getElementById("root")).innerHTML="",n.appendChild(e())})();
+(()=>{"use strict";var e,o;console.log("Hello Sam!"),console.log(5),console.log(32),e=function(){const e=document.createElement("div");return e.innerHTML="<h1>Hello, React SPA!</h1>",e},(o=document.getElementById("root")).innerHTML="",o.appendChild(e())})();
