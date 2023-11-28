@@ -1,0 +1,1 @@
+(()=>{var e,n;e=function(){const e=document.createElement("div");return e.innerHTML="<h1>Hello, React SPA!</h1>",e},(n=document.getElementById("root")).innerHTML="",n.appendChild(e())})();
