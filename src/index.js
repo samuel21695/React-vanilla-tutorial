@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import File1 from './components/file1';
 import File2 from './components/file2';
 import File3 from './components/file3';
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-ReactDOM.createRoot(rootNode).render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

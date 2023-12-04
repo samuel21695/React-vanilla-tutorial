@@ -1,3 +1,5 @@
+import React from "react";
+
 function File3() {
   return <h2>File 3 Content</h2>;
 }
