@@ -1,12 +1,18 @@
-import { createApp } from "./components/App";
-import { render } from "./components/App";
-import { greet } from "./components/file1";
-import { add } from "./components/file2";
-import { multiply } from "./components/file3";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import File1 from './components/file1';
+import File2 from './components/file2';
+import File3 from './components/file3';
 
-// 렌더링 실행
-render(createApp, document.getElementById('root'));
+function App() {
+  return (
+    <div>
+      <h1>Hello, React SPA!</h1>
+      <File1 />
+      <File2 />
+      <File3 />
+    </div>
+  );
+}
 
-console.log(greet('Sam'));
-console.log(add(2, 3));
-console.log(multiply(4, 8));
+ReactDOM.render(<App />, document.getElementById('root'));
